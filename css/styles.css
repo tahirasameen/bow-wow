@@ -1,0 +1,28 @@
+#title{
+  background-color: #ff4c68;
+  color:#fff;
+}
+body{
+  font-family: Montserrat;
+}
+.container-fluid{
+  padding: 3% 15% 3% 15%;
+}
+
+h1{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight:900;
+
+}
+.navbar-light .navbar-brand{
+  font-family: Ubuntu;
+  color:#fff;
+  font-size:2rem;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  font-family: Ubuntu;
+      color: rgba(241, 240, 240, 0.5);
+}
