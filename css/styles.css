@@ -16,13 +16,37 @@ h1{
   font-weight:900;
 
 }
-.navbar-light .navbar-brand{
+
+.navbar-light .navbar-brand {
   font-family: Ubuntu;
-  color:#fff;
+  color: #fff;
   font-size:2rem;
+  padding-bottom:3.5rem;
 }
 
 .navbar-light .navbar-nav .nav-link{
   font-family: Ubuntu;
       color: rgba(241, 240, 240, 0.5);
+          padding-bottom:3.5rem;
+}
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.nav-item{
+  padding: 0 10px;
+}
+
+.nav-link{
+  font-size:1.2rem;
+  font-family:"Montserrat-light";
+}
+
+.download-button{
+  margin:5% 3% 5% 0;
+}
+
+.image-title{
+  width:180%;
+  transform: rotate(25deg);
 }
