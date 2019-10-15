@@ -16,7 +16,10 @@ h1{
   font-weight:900;
 
 }
-
+p{
+  color:#686868;
+}
+/*    navbar                        */
 .navbar-light .navbar-brand {
   font-family: Ubuntu;
   color: #fff;
@@ -41,7 +44,7 @@ h1{
   font-size:1.2rem;
   font-family:"Montserrat-light";
 }
-
+/*           button             */
 .download-button{
   margin:5% 3% 5% 0;
 }
@@ -49,4 +52,17 @@ h1{
 .image-title{
   width:180%;
   transform: rotate(25deg);
+}
+#features{
+  padding:7% 15%;
+}
+.feature-box{
+  text-align:center;
+}
+.icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color:#ff4c68;
 }
