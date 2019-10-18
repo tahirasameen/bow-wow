@@ -4,9 +4,11 @@
 }
 body{
   font-family: Montserrat;
+  mrgin:0;
 }
 .container-fluid{
-  padding: 3% 15% 3% 15%;
+  padding: 3% 15% 7%;
+
 }
 
 h1{
@@ -36,10 +38,10 @@ p{
 .navbar-light .navbar-nav .nav-link{
   font-family: Ubuntu;
       color: rgba(241, 240, 240, 0.5);
-          padding-bottom:3.5rem;
+          padding-bottom:5.5rem;
 }
 .navbar{
-  padding:0 0 4.5rem;
+  padding:0 0 2.5rem;
 }
 
 .nav-item{
@@ -49,19 +51,26 @@ p{
 .nav-link{
   font-size:1.2rem;
   font-family:"Montserrat-light";
+
 }
-/*           button             */
+/*.collapse{
+  padding-right:10%;
+}
+*/
 .download-button{
   margin:5% 3% 5% 0;
 }
 
 .image-title{
-  width:180%;
+  width:1000%;
   transform: rotate(25deg);
+  position:absolute;
 }
 /* features    */
 #features{
   padding:7% 15%;
+  background-color:#fff;
+  position:relative;
 }
 .feature-box{
   text-align:center;
@@ -76,12 +85,14 @@ p{
 /* testimonial      */
 #testimonials{
   text-align:center;
-  padding:7% 15%;
   background-color:#ef8172;
   color:#fff;
 
 }
 
+.carousel-item{
+  padding:7% 15%;
+}
 .testimonial-image
 {
   width:10%;
@@ -98,4 +109,11 @@ p{
 .logo{
 width:15%;
 margin:20px 20px 20px;
+}
+#pricing{
+  padding:100px;
+  text-align:center;
+}
+.pricing-column{
+  padding:3% 2%;
 }
