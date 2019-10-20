@@ -1,32 +1,44 @@
-#title{
-  background-color: #ff4c68;
-  color:#fff;
-}
+
 body{
   font-family: Montserrat;
   mrgin:0;
-}
-.container-fluid{
-  padding: 3% 15% 7%;
-
+  text-align:center;
 }
 
-h1{
+h1,h2,h3,h4,h5,h6{
   font-family: "Montserrat";
-  font-size: 3rem;
-  line-height: 1.5;
-  font-weight:900;
 
 }
-h2{
-  font-family: "Montserrat";
-  font-size: 3rem;
-  line-height: 1.5;
-  font-weight:900;
-}
+
 p{
   color:#686868;
 }
+/*headings   */
+.big-heading{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight:900;
+
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+.container-fluid{
+  padding: 7% 15% ;
+
+}
+/* section  */
+.colored-section{
+  background-color: #ff4c68;
+  color:#fff;
+}
+.white-section{
+  background-color:#fff;
+}
+
 /*    navbar                        */
 .navbar-light .navbar-brand {
   font-family: Ubuntu;
@@ -53,27 +65,27 @@ p{
   font-family:"Montserrat-light";
 
 }
-/*.collapse{
-  padding-right:10%;
+/* title section  */
+#title .container-fluid{
+  padding:3% 15% 7%;
+  text-align: left;
 }
-*/
 .download-button{
   margin:5% 3% 5% 0;
 }
-
+/* title image */
 .image-title{
-  width:1000%;
+  width:300px;
   transform: rotate(25deg);
   position:absolute;
 }
 /* features    */
 #features{
-  padding:7% 15%;
-  background-color:#fff;
+
   position:relative;
 }
-.feature-box{
-  text-align:center;
+.feature-title{
+  font-size:1.5rem;
 }
 .icon{
   color:#ef8172;
@@ -84,14 +96,12 @@ p{
 }
 /* testimonial      */
 #testimonials{
-  text-align:center;
   background-color:#ef8172;
-  color:#fff;
-
 }
 
-.carousel-item{
-  padding:7% 15%;
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
 }
 .testimonial-image
 {
@@ -101,19 +111,46 @@ p{
 
 
 }
+/*press   */
 #press{
   background-color:#ef8172;
-  text-align:center;
   padding-bottom:5%;
 }
 .logo{
 width:15%;
 margin:20px 20px 20px;
 }
+/* pricing   */
 #pricing{
   padding:100px;
-  text-align:center;
 }
 .pricing-column{
   padding:3% 2%;
+}
+.price-text{
+  font-size:3rem;
+  line-height: 1.5;
+}
+@media (max-width:993px){
+  #title{
+    text-align:center;
+  }
+  .image-title{
+    position:static;
+    transform:rotate(0);
+  }
+}
+/* cta section */
+
+  .cta-header{
+    font-size:3rem;
+    line-height: 1.5;
+  }
+/* footer   */
+
+
+#footer {
+}
+.social-icon{
+ margin: 20px 10px;
 }
